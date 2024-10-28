@@ -1,7 +1,11 @@
 import AppRoutes from "./routes";
 
 function App() {
-  return <AppRoutes />;
+  return (
+    <div className="font-sans">
+      <AppRoutes />;
+    </div>
+  );
 }
 
 export default App;
