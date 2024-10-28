@@ -523,7 +523,7 @@ Você provavelmente já ouviu falar do terceiro animal, o quero-quero, uma das a
   
 O quarto e último animal, localizado à direita, é a garça-moura, a maior garça do Brasil, com envergadura que pode chegar a 1 metro e oitenta de altura. Sua plumagem é predominantemente cinza, contrastando com seu pescoço branco, que se destaca de forma elegante. Quando em voo, a garça-moura exibe um padrão solitário e ritmado, caracterizado por lentas batidas de asas. Ela costuma ficar pousada nas margens dos rios e riachos, em meio à vegetação, pescando peixes, sapos, caranguejos, moluscos e pequenos répteis.
   
-  Gostou de conhecer um pouco mais sobre os animais do Pantanal? Nossa jornada pelos biomas termina por aqui, mas ainda há muito mais para explorar no museu! Continue sua visita e descubra outras maravilhas da natureza no nosso acervo!`,
+Gostou de conhecer um pouco mais sobre os animais do Pantanal? Nossa jornada pelos biomas termina por aqui, mas ainda há muito mais para explorar no museu! Continue sua visita e descubra outras maravilhas da natureza no nosso acervo!`,
   },
   {
     title: "Áudio 8 - Créditos",
