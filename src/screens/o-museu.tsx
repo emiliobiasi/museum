@@ -9,7 +9,7 @@ export default function OMuseu() {
           <img
             src={Image}
             alt="Museu de História Natural de Campinas"
-            className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 rounded shadow-lg object-cover"
+            className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 rounded shadow-lg object-cover transition-transform transform hover:scale-105 duration-300"
           />
           <div className="text-center lg:text-left self-center lg:self-end animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black uppercase leading-none tracking-wider">

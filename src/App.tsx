@@ -3,7 +3,7 @@ import AppRoutes from "./routes";
 function App() {
   return (
     <div className="font-sans">
-      <AppRoutes />;
+      <AppRoutes />
     </div>
   );
 }

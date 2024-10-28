@@ -24,7 +24,7 @@ export function MuseumTopBar() {
             onClick={() => handleNavigation("/")}
           >
             <span className="text-2xl font-bold text-[#ffcd01]">
-              Nome do Museu
+              Logo do Museu
             </span>
           </div>
 
