@@ -23,7 +23,7 @@ export function MuseumMission() {
                 <div className="bg-[#000000] rounded-full p-2">
                   <Book className="w-8 h-8 text-[#e9c46a]" />
                 </div>
-                <h2 className="text-4xl font-bold text-[#000000]">SOBRE NÓS</h2>
+                <h2 className="text-3xl font-bold text-[#000000]">SOBRE NÓS</h2>
               </div>
               <p className="text-[#000000] font-medium">
                 Fundado em 1938, o Museu de História Natural de Campinas tem
@@ -39,7 +39,7 @@ export function MuseumMission() {
                 <div className="bg-[#000000] rounded-full p-2">
                   <Compass className="w-8 h-8 text-[#e9c46a]" />
                 </div>
-                <h3 className="text-4xl font-bold text-[#000000]">
+                <h3 className="text-3xl font-bold text-[#000000]">
                   NOSSA MISSÃO
                 </h3>
               </div>

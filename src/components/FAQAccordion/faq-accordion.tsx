@@ -29,12 +29,14 @@ export function FaqAccordion() {
     },
     {
       question: "HÁ BANHEIROS DISPONÍVEIS?",
-      answer: "Sim, há tantos banheiros lalala",
+      answer:
+        "O museu não possui banheiros internos, mas você encontrará banheiros amplos (masculino e feminino) no bosque, em frente ao parquinho de areia. Há também fraldário e banheiro acessível para pessoas com deficiência.",
     },
     {
       question:
         "COM UM INGRESSO, POSSO VISITAR TAMBÉM O AQUÁRIO E SERPENTÁRIO?",
-      answer: "??? Será que pode?",
+      answer:
+        "Sim, o ingresso é único e permite acesso ao museu, aquário e serpentário.",
     },
   ];
 
