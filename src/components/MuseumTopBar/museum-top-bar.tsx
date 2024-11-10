@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import logo from "@/assets/logo-whitebg.png";
 
 export function MuseumTopBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,17 +18,20 @@ export function MuseumTopBar() {
   return (
     <header className="bg-white text-black border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Nome do Museu */}
+        <div className="flex items-center justify-between h-24">
+          {" "}
+          {/* Aumenta a altura do header */}
+          {/* Logotipo do Museu */}
           <div
             className="flex-shrink-0 cursor-pointer"
             onClick={() => handleNavigation("/")}
           >
-            <span className="text-2xl font-bold text-[#ffcd01]">
-              Logo do Museu
-            </span>
+            <img
+              src={logo} // Substitua pelo caminho da imagem do logotipo
+              alt="Logotipo do Museu"
+              className="h-16 w-auto md:h-20 ml-4" // Ajuste da altura para um logotipo maior
+            />
           </div>
-
           {/* Navegação para telas maiores */}
           <nav className="hidden md:flex space-x-4">
             <Button
@@ -59,7 +63,6 @@ export function MuseumTopBar() {
               CONTATO
             </Button>
           </nav>
-
           {/* Ícone de menu para telas menores */}
           <div className="md:hidden">
             <Button
