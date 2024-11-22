@@ -26,9 +26,9 @@ export default function VisitaGuiada() {
       <div className="bg-white pt-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-black leading-relaxed space-y-8">
         <div>
           <p className="text-gray-700">
-            Escute nossa visita guiada com elementos de audiodescrição sobre os
-            6 biomas brasileiros e aprenda mais sobre os animais presentes em
-            cada um!
+            Escute nossa visita guiada, com elementos de audiodescrição, sobre
+            os <strong>6 biomas brasileiros</strong> e aprenda mais sobre os
+            animais presentes em cada um!
           </p>
         </div>
       </div>

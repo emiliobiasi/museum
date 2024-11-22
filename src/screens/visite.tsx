@@ -33,14 +33,15 @@ export default function Visite() {
           <h2 className="text-2xl font-semibold text-[#e76f51]">
             HORÁRIO DE FUNCIONAMENTO
           </h2>
-          <p className="text-gray-700 font-medium">
-            Fechado: Segunda, sábado e domingo
-          </p>
+
           <p className="text-gray-700 font-medium">Público geral:</p>
-          <p className="text-gray-700">Aberto: Terça a sexta das 9h às 13h</p>
+          <p className="text-gray-700">Aberto: Terça a sexta, das 9h às 13h</p>
           <p className="text-gray-700 font-medium">Escolas:</p>
           <p className="text-gray-700">
             Aberto: Terça a sexta das 9h às 13h e das 14h às 16h
+          </p>
+          <p className="text-gray-700 font-medium">
+            Fechado: Segunda, sábado e domingo
           </p>
           <p className="text-sm italic text-gray-600">
             *Agendamentos de grupos escolares devem ser feitos através do
