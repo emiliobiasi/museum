@@ -542,7 +542,52 @@ Gostou de conhecer um pouco mais sobre os animais do Pantanal? Nossa jornada pel
   {
     title: "Áudio 8 - Créditos",
     audioSrc: creditos,
-    transcriptionText: "Transcrição completa para os créditos.",
+    transcriptionText: `Os áudios da visita guiada são parte do projeto experimental do curso de mídias digitais da puc-campinas, realizado pelos alunos Flávia Möller Galasso Calligaris, Giovana Hirata Santarosa, Giovanna Dantas Nunes, Victoria Sant’Ana da Silva e Vinícius Reiner Fernandes de Oliveira. Os sons de alguns animais foram retirados de bancos de áudios licenciados sob a categoria creative commons de atribuição, permitindo a distribuição, remixagem e adaptação, sendo os detentores dos direitos:
+
+Breno Dias vitorino
+David Curl
+Keith Rodgerson
+Eric Simms
+John Burton
+Juanita Barrera Vargas
+Francisco Contreras
+José María Loaiza
+Carlos Henrique Luz Nunes de Almeida
+Rosendo Fraga
+Denis som
+Fernando Igor de Godoy
+Niels Krabbe
+Jeremy Minns
+Guilherme de Barros Brandão
+Peter Bassett
+Trevor Gosling
+Tomas Calvo
+David Tombs
+Nigel Tucker
+John Watkin
+Jerome Fischer
+Jayrson Araujo de Oliveira
+Eduardo Patrial
+Rolf A. de By
+John V. Moore
+Jacob Wijpkema
+Danny Zapata-Henao
+Mauricio Cuéllar-Ramírez
+Cristian Pinto Fernandez
+Sidnei S. dos Santos
+Andrew Spencer
+Ciro Albano
+Bernabe Lopez-Lanus
+Guilherme Melo
+Richard E. Webster
+Simon Cooke
+Stephen de Vere
+Dries Van de Loock
+Caio Brito
+Dante Buzzetti
+Thomas Magarian
+e Luiz C. Silva.
+`,
   },
 ];
 

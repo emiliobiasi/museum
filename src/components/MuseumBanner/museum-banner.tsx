@@ -1,4 +1,4 @@
-import BannerImage from "@/assets/images/louvre-interno.png";
+import BannerImage from "@/assets/images/Fachada.jpg";
 
 export function MuseumBanner() {
   return (

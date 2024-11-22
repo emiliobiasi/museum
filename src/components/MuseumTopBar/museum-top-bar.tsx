@@ -36,28 +36,28 @@ export function MuseumTopBar() {
           <nav className="hidden md:flex space-x-4">
             <Button
               variant="ghost"
-              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300"
+              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300 text-lg"
               onClick={() => handleNavigation("/o-museu")}
             >
               O MUSEU
             </Button>
             <Button
               variant="ghost"
-              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300"
+              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300 text-lg"
               onClick={() => handleNavigation("/visite")}
             >
               VISITE
             </Button>
             <Button
               variant="ghost"
-              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300"
+              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300 text-lg"
               onClick={() => handleNavigation("/visita-guiada")}
             >
               VISITA GUIADA
             </Button>
             <Button
               variant="ghost"
-              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300"
+              className="text-black hover:text-[#ffcd01] font-semibold transition-colors duration-300 text-lg"
               onClick={() => handleNavigation("/contato")}
             >
               CONTATO

@@ -1,4 +1,4 @@
-import Image from "@/assets/images/louvre-o-museu.png";
+import Image from "@/assets/images/Guiada.jpg";
 import AudioCard from "@/components/AudioCard/audio-card";
 import audioData from "@/audioData";
 

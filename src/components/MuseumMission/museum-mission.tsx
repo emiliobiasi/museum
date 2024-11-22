@@ -1,5 +1,5 @@
 import { Book, Compass } from "lucide-react";
-import Imagem from "@/assets/images/louvre-mission.png";
+import Imagem from "@/assets/images/Missão.jpg";
 
 export function MuseumMission() {
   return (
@@ -21,7 +21,7 @@ export function MuseumMission() {
             <div className="mb-8">
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-[#000000] rounded-full p-2">
-                  <Book className="w-8 h-8 text-[#e9c46a]" />
+                  <Book className="w-8 h-8 text-[#ffffff]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#000000]">SOBRE NÓS</h2>
               </div>
@@ -37,7 +37,7 @@ export function MuseumMission() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-[#000000] rounded-full p-2">
-                  <Compass className="w-8 h-8 text-[#e9c46a]" />
+                  <Compass className="w-8 h-8 text-[#ffffff]" />
                 </div>
                 <h3 className="text-3xl font-bold text-[#000000]">
                   NOSSA MISSÃO

@@ -1,5 +1,6 @@
-import { Book } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { FaHeadphones } from "react-icons/fa";
+import icon from "@/assets/images/icone.png";
 
 export function VisitaGuiadaSection() {
   const navigate = useNavigate();
@@ -16,14 +17,22 @@ export function VisitaGuiadaSection() {
             <div className="mb-8">
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-[#000000] rounded-full p-2">
-                  <Book className="w-8 h-8 text-[#ffffff]" />
+                  <img
+                    src={icon}
+                    alt="Icon"
+                    className="w-8 h-8 object-cover"
+                    style={{
+                      transform: "scale(1.5)", // Ajuste o nível do zoom
+                      objectPosition: "center",
+                    }}
+                  />
                 </div>
                 <h2 className="text-3xl font-bold text-[#000000]">
                   O Museu de História Natural de Campinas
                 </h2>
               </div>
               <hr className="border-t-2 border-[#f1c40f] my-4" />
-              <p className="text-[#4a4a4a] font-medium">
+              <p className="text-[#4a4a4a] font-medium lg:w-3/5">
                 O Museu de História Natural, um dos cartões postais da cidade,
                 integra o Aquário e a Casa dos Animais Interessantes. Em sua
                 visita, você descobrirá a riqueza dos fósseis, os biomas
@@ -36,10 +45,11 @@ export function VisitaGuiadaSection() {
             </div>
             <div>
               <button
-                className="bg-[#f1c40f] text-[#000000] font-bold py-2 px-4 rounded hover:bg-[#f39c12] transition-colors"
+                className="bg-[#f1c40f] text-[#000000] font-bold py-2 px-4 rounded hover:bg-[#f39c12] transition-colors flex items-center space-x-2"
                 onClick={() => handleNavigation("/visita-guiada")}
               >
-                ESCUTAR A VISITA GUIADA
+                <FaHeadphones className="text-black w-5 h-5" />
+                <span>ESCUTAR A VISITA GUIADA</span>
               </button>
             </div>
           </div>

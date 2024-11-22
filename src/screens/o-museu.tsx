@@ -1,4 +1,4 @@
-import Image from "@/assets/images/louvre-o-museu.png";
+import Image from "@/assets/images/museu.jpeg";
 import { useNavigate } from "react-router-dom";
 
 export default function OMuseu() {

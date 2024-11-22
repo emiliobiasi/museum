@@ -1,4 +1,4 @@
-import Image from "@/assets/images/louvre-visite.png";
+import Image from "@/assets/images/Visite.jpeg";
 
 export default function Visite() {
   return (
