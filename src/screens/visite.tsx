@@ -1,4 +1,4 @@
-import Image from "@/assets/images/Visite.jpeg";
+import Image from "@/assets/images/visite.jpeg";
 
 export default function Visite() {
   return (

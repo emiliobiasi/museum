@@ -1,5 +1,5 @@
 import { Book, Compass } from "lucide-react";
-import Imagem from "@/assets/images/Missão.jpg";
+import Imagem from "@/assets/images/missao.jpg";
 
 export function MuseumMission() {
   return (
