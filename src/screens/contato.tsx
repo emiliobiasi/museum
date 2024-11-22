@@ -1,4 +1,4 @@
-import Image from "@/assets/images/louvre-o-museu.png";
+import Image from "@/assets/images/faq.jpg";
 import { FaqAccordion } from "@/components/FAQAccordion/faq-accordion";
 
 export default function Contato() {
