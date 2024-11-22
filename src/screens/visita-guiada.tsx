@@ -1,4 +1,4 @@
-import Image from "@/assets/images/guiada.jpg";
+import Image from "@/assets/images/guiada.jpeg";
 import AudioCard from "@/components/AudioCard/audio-card";
 import audioData from "@/audioData";
 

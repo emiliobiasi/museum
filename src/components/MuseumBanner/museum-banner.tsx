@@ -1,4 +1,4 @@
-import BannerImage from "@/assets/images/fachada.jpg";
+import BannerImage from "@/assets/images/fachada.jpeg";
 
 export function MuseumBanner() {
   return (
