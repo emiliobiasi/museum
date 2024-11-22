@@ -1,5 +1,7 @@
 import Image from "@/assets/images/museu.jpeg";
 import { useNavigate } from "react-router-dom";
+import capa from "@/assets/images/capa-ebook.png";
+import pdf from "@/assets/pdf/ebook.pdf";
 
 export default function OMuseu() {
   const navigate = useNavigate();
@@ -49,7 +51,7 @@ export default function OMuseu() {
           Para mais informações e curiosidades sobre a história do museu,
           confira o{" "}
           <a
-            href="/path/to/ebook.pdf" // Substitua pelo caminho real do PDF
+            href={pdf}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
@@ -60,8 +62,24 @@ export default function OMuseu() {
         </p>
       </div>
 
+      {/* Imagem clicável para acessar o e-book */}
+      <div className="flex justify-center py-10">
+        <a
+          href={pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <img
+            src={capa}
+            alt="Acesse o e-book"
+            className="w-40 h-60 sm:w-64 sm:h-80 md:w-72 md:h-[26rem] lg:w-80 lg:h-[30rem] object-cover rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300"
+          />
+        </a>
+      </div>
+
       {/* Texto informativo com seções de Acervo, Exposições e Visita Guiada */}
-      <div className="bg-white py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-black leading-relaxed space-y-8">
+      <div className="bg-white pb-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-black leading-relaxed space-y-8">
         {/* Acervo */}
         <div className="space-y-1">
           <h2 className="text-2xl font-semibold text-[#e76f51]">ACERVO</h2>
