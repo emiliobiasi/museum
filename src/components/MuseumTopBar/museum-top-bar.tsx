@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import logo from "@/assets/logo-whitebg.png";
+import logo from "@/assets/logos/logo-whitebg.png";
 
 export function MuseumTopBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

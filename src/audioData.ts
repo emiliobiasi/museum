@@ -1,9 +1,23 @@
 // src/audioData.js
+import ABERTURA_MIX_V1_1 from "@/assets/audios/ABERTURA_MIX_V1_1.mp3";
+import ANIMAIS_AMAZONIA_V2 from "@/assets/audios/ANIMAIS_AMAZONIA_V2.mp3";
+import ANIMAIS_CAATINGA_V1_1 from "@/assets/audios/ANIMAIS_CAATINGA_V1_1.mp3";
+import ANIMAIS_CERRADO_V1_1 from "@/assets/audios/ANIMAIS_CERRADO_V1_1.mp3";
+import ANIMAIS_MATA_ATLANICA_V2 from "@/assets/audios/ANIMAIS_MATA_ATLANICA_V2.mp3";
+import ANIMAIS_PAMPA_V1_1 from "@/assets/audios/ANIMAIS_PAMPA_V1_1.mp3";
+import ANIMAIS_PANTANAL from "@/assets/audios/ANIMAIS_PANTANAL.mp3";
+import creditos from "@/assets/audios/creditos.mp3";
+import PLACA_AMAZONIA_V1_1 from "@/assets/audios/PLACA_AMAZONIA_V1_1.mp3";
+import PLACA_CAATINGA_V2 from "@/assets/audios/PLACA_CAATINGA_V2.mp3";
+import PLACA_CERRADO_1 from "@/assets/audios/PLACA_CERRADO_1.mp3";
+import PLACA_MATA_ATLANICA_V2 from "@/assets/audios/PLACA_MATA_ATLANICA_V2.mp3";
+import PLACA_PAMPA_1 from "@/assets/audios/PLACA_PAMPA_1.mp3";
+import PLACA_PANTANAL_V1 from "@/assets/audios/PLACA_PANTANAL_V1.mp3";
 
 const audioData = [
   {
     title: "Áudio 1 - Abertura",
-    audioSrc: "path_to_audio_file_1.mp3",
+    audioSrc: ABERTURA_MIX_V1_1,
     transcriptionText: `Bem-vindo ao Museu de História Natural de Campinas! Inaugurado em 1938, o museu promove a conservação e desenvolve programas de educação ambiental.
     
 Ao explorar nossas exposições, você descobrirá mais de mil peças, incluindo vertebrados, como aves, mamíferos, répteis, peixes e anfíbios, e invertebrados, como insetos e criaturas marinhas.
@@ -16,7 +30,7 @@ Aproveite a visita!`,
   },
   {
     title: "Áudio 2A - Placa da Mata Atlântica",
-    audioSrc: "path_to_audio_file_2A.mp3",
+    audioSrc: PLACA_MATA_ATLANICA_V2,
     transcriptionText: `Agora, vamos explorar a Mata Atlântica, um dos biomas mais ricos em biodiversidade do Brasil! Você sabia que estamos exatamente nesse bioma?!
 
 Diante de você, há uma vitrine de vidro que contém uma pequena placa no canto superior direito. Nela, estão informações essenciais sobre esse ecossistema, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
@@ -63,7 +77,7 @@ Agora, te convidamos a conhecer um pouco mais sobre alguns dos animais da Mata A
   },
   {
     title: "Áudio 2B - Animais da Mata Atlântica",
-    audioSrc: "path_to_audio_file_2B.mp3",
+    audioSrc: ANIMAIS_MATA_ATLANICA_V2,
     transcriptionText: `À sua frente, há uma vitrine de vidro representando a biodiversidade densa e rica da Mata Atlântica. O cenário é composto por folhagens verdes, galhos entrelaçados e uma vegetação com folhas secas que simula o chão da floresta, além de 17 animais empalhados.  
     
 No canto inferior esquerdo, há um Tatu-galinha com aproximadamente 40 centímetros de comprimento. Seu corpo é formado por uma carapaça rígida e sua coloração é marrom, o que o ajuda a se camuflar no ambiente da floresta. A cabeça é pequena e alongada, com um focinho estreito, ideal para cavar buracos em busca de alimento. Suas orelhas são curtas e pontiagudas, e seus olhos são pequenos, adaptados para enxergar melhor em ambientes com pouca luz.  
@@ -103,7 +117,7 @@ Continue explorando os outros biomas representados no museu e descubra a rica bi
   },
   {
     title: "Áudio 3A - Placa da Amazônia",
-    audioSrc: "path_to_audio_file_3A.mp3",
+    audioSrc: PLACA_AMAZONIA_V1_1,
     transcriptionText: `Agora, vamos aprender sobre o bioma Amazônico, localizado na região Norte do Brasil!
   
 Diante de você, há uma vitrine de vidro que contém uma pequena placa no canto superior direito. Nela, estão informações essenciais sobre esse bioma, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
@@ -146,7 +160,7 @@ Agora, te convidamos a conhecer um pouco mais sobre alguns dos animais do bioma 
   },
   {
     title: "Áudio 3B - Animais da Amazônia",
-    audioSrc: "path_to_audio_file_3B.mp3",
+    audioSrc: ANIMAIS_AMAZONIA_V2,
     transcriptionText: `À sua frente, há uma ampla vitrine de vidro que recria o ambiente natural do bioma amazônico. O chão está coberto por folhas e galhos secos, onde 17 animais empalhados estão distribuídos. Vamos aprender um pouco sobre eles?
   
 Na parte inferior da vitrine, à esquerda, repousa um jupará sobre um galho caído. Esse mamífero raro e pouco conhecido é parente dos guaxinins e quatis, e curiosamente, há um quati logo ao seu lado. O jupará, com sua pelagem marrom avermelhada, destaca-se como um dos maiores disseminadores de sementes de cacau no Brasil. Sua cauda, adaptada para agarrar objetos, o faz ser confundido com primatas, o que lhe rendeu o apelido de “macaco-da-meia-noite”, uma referência ao seu hábito noturno.
@@ -183,7 +197,7 @@ Gostou de conhecer um pouco mais sobre os animais da Amazônia? Continue explora
   },
   {
     title: "Áudio 4A - Placa da Caatinga",
-    audioSrc: "path_to_audio_file_4A.mp3",
+    audioSrc: PLACA_CAATINGA_V2,
     transcriptionText: `Vamos aprender sobre a Caatinga! Bioma único e exclusivamente brasileiro, que abriga uma incrível biodiversidade e histórias de adaptação.
   
 À sua frente, há uma vitrine de vidro que contém uma pequena placa no canto superior esquerdo. Nela, estão informações essenciais sobre esse bioma, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
@@ -228,7 +242,7 @@ Agora, te convidamos a conhecer um pouco mais sobre alguns dos animais do bioma 
   },
   {
     title: "Áudio 4B - Animais da Caatinga",
-    audioSrc: "path_to_audio_file_4B.mp3",
+    audioSrc: ANIMAIS_CAATINGA_V1_1,
     transcriptionText: `À sua frente, uma vitrine de vidro recria o ambiente natural da Caatinga. O solo é coberto por areia clara e seca, simulando o terreno árido e característico da região. Espalhadas pelo solo, você encontra algumas plantas típicas desse bioma, como os cactos, representados por plantas artificiais.
   
 Na parte frontal da exibição, podemos observar diversas espécies de animais. À esquerda, destaca-se o cachorro-do-mato, um canídeo de médio porte, com cerca de 60 a 70 centímetros de comprimento. Sua pelagem curta varia do cinza ao castanho. Esse animal tem hábitos crepusculares e noturnos, o que torna seu avistamento difícil, já que prefere sair para caçar ao entardecer ou à noite.
@@ -267,7 +281,7 @@ Gostou de conhecer um pouco mais sobre os animais da Caatinga? Continue exploran
   },
   {
     title: "Áudio 5A - Placa do Pampa",
-    audioSrc: "path_to_audio_file_5A.mp3",
+    audioSrc: PLACA_PAMPA_1,
     transcriptionText: `Vamos iniciar nossa visita ao bioma do Pampa, o qual exibe um imenso patrimônio cultural associado à biodiversidade!
   
 À sua frente, há uma vitrine de vidro que contém uma pequena placa no canto superior direito. Nela, estão informações essenciais sobre esse bioma, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
@@ -310,7 +324,7 @@ Agora, te convidamos a conhecer um pouco mais sobre esses animais!`,
   },
   {
     title: "Áudio 5B - Animais do Pampa",
-    audioSrc: "path_to_audio_file_5B.mp3",
+    audioSrc: ANIMAIS_PAMPA_V1_1,
     transcriptionText: `À sua frente, há uma ampla vitrine de vidro que recria o ambiente natural do Pampa. O solo é arenoso e raso, de baixo relevo, característica principal deste bioma. A vegetação é composta por plantas herbáceas, ou seja, de pequeno porte que ficam espalhadas no terreno principalmente à margem do rio à sua direita. Neste cenário, 17 animais empalhados estão distribuídos. Vamos conhecer um pouco mais sobre eles?
   
 No canto esquerdo encontra-se o mão-pelada, um animal que é muito parecido com o guaxinim. Ele tem pelagem acinzentada, cabeça curta e focinho pontudo. Possui uma máscara preta ao redor dos olhos e faixas pretas na cauda. É um animal de porte médio, hábitos noturnos e extremamente tímido. Alimenta-se de frutos, insetos e outros animais.
@@ -351,7 +365,7 @@ Gostou de conhecer um pouco mais sobre os animais do Pampa? Continue explorando 
   },
   {
     title: "Áudio 6A - Placa Cerrado",
-    audioSrc: "path_to_audio_file_6A.mp3",
+    audioSrc: PLACA_CERRADO_1,
     transcriptionText: `Vamos iniciar nossa visita ao bioma do Cerrado, o segundo maior bioma do Brasil, que se espalha por diversas regiões do nosso país e abriga uma biodiversidade fascinante!
   
 À sua frente, há uma vitrine de vidro que contém uma pequena placa no canto superior esquerdo. Nela, estão informações essenciais sobre esse bioma, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
@@ -394,7 +408,7 @@ Agora, te convidamos a conhecer um pouco mais sobre alguns dos animais do bioma 
   },
   {
     title: "Áudio 6B - Animais Cerrado",
-    audioSrc: "path_to_audio_file_6B.mp3",
+    audioSrc: ANIMAIS_CERRADO_V1_1,
     transcriptionText: `À sua frente, uma vitrine de vidro recria o ambiente natural do Cerrado. O solo, coberto por areia clara e seca, destaca-se pela pouca matéria orgânica, característica típica desse bioma. Plantas típicas do Cerrado, como gramíneas e pequenos arbustos, estão espalhadas entre os 17 animais empalhados. Vamos explorar mais sobre eles?
   
 Logo à esquerda, uma grande jibóia chama a atenção. Esta cobra, que pode medir de 2 a 3 metros de comprimento, é bastante adaptável e habita diferentes tipos de ambientes, sendo uma das serpentes mais comuns em vários ecossistemas brasileiros.
@@ -433,7 +447,7 @@ Gostou de conhecer um pouco mais sobre os animais do Cerrado? Temos mais um biom
   },
   {
     title: "Áudio 7A - Placa Pantanal",
-    audioSrc: "path_to_audio_file_7A.mp3",
+    audioSrc: PLACA_PANTANAL_V1,
     transcriptionText: `Vamos iniciar nossa visita ao último bioma do Brasil, o Pantanal, a maior planície alagável do planeta! À sua frente, uma grande janela de vidro revela o bioma do Pantanal em um amplo espaço. No canto direito do vidro há uma placa, onde você encontrará informações essenciais sobre este ecossistema, incluindo sua vegetação, fauna e os desafios que enfrenta atualmente. Vamos conferir juntos?
   
 O Pantanal cobre uma área de aproximadamente 250 mil quilômetros quadrados, sendo 120 mil em território brasileiro. Localizado na bacia hidrográfica do Alto Paraguai, ele ocupa 1,76% dos estados do Mato Grosso e Mato Grosso do Sul, além de se estender por partes da Bolívia e do Paraguai. É a maior área continental inundável do mundo! No período das chuvas o nível de água dos rios sobe, provocando as enchentes, que chegam a cobrir até 2/3 da área pantaneira. Enquanto na seca, a água se restringe aos rios, lagoas e áreas alagadas.
@@ -500,7 +514,7 @@ Agora, te convidamos a conhecer um pouco mais sobre alguns dos animais do bioma 
   },
   {
     title: "Áudio 7B - Animais Pantanal",
-    audioSrc: "path_to_audio_file_7B.mp3",
+    audioSrc: ANIMAIS_PANTANAL,
     transcriptionText: `À sua frente, um grande espaço separado por uma janela de vidro recria o ambiente natural do Pantanal. O cenário ao fundo apresenta um céu azul claro, com algumas nuvens, além de árvores e áreas alagadas que imitam a paisagem típica do bioma. O solo da vitrine é coberto por folhas secas e vegetação rasteira, criando um ambiente próximo ao chão da floresta e das áreas de pastagem desse bioma.
   
 45 animais empalhados estão expostos neste cenário, mas alguns deles você já conheceu nos biomas anteriores, como a ariranha, a ema, o quati, o carcará, a onça-pintada, a capivara, a arara-canindé, o pica-pau-de-banda-branca, a lontra, o tucano-toco, o martim-pescador-grande, o maracanã-nobre e o pica-pau-verde-barrado. Então, vamos conhecer um pouco mais sobre os outros animais?
@@ -527,7 +541,7 @@ Gostou de conhecer um pouco mais sobre os animais do Pantanal? Nossa jornada pel
   },
   {
     title: "Áudio 8 - Créditos",
-    audioSrc: "path_to_audio_file_8.mp3",
+    audioSrc: creditos,
     transcriptionText: "Transcrição completa para os créditos.",
   },
 ];
